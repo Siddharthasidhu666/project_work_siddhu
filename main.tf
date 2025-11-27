@@ -5,5 +5,5 @@ resource "aws_iam_user" "example_user" {
 variable "name" {
   description = "The name for the IAM user"
   type        = string
-  default       = rakesh
+  default       = "rakesh"
 }
